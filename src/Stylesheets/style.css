@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-weight: 500;
+}
+.container{
+    width:96%;
+    padding:2%;
+}
+.content{
+    display: flex;
+
+}
+
+table{
+    align-self: flex-start!important;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    margin: 5px;
+
+}
+table th, table td{
+    padding: .5rem;
+    vertical-align: top;
+    text-align: left;
+}
+table tr, input{
+    cursor: pointer;
+
+}
+h3{
+    margin: 5px 10px;
+}
+.spinner-img{
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+}
+.filters{
+width:320px;
+}
+.filter-group{
+    background: lightgray;
+    padding: 5px;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.details{
+    margin: 5px;
+}
+.details label{
+    text-transform: capitalize;
+    width: 146px;
+    display: inline-block;
+}
